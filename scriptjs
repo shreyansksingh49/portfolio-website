@@ -1,0 +1,15 @@
+
+// Show a welcome message when the website loads
+window.addEventListener("load", function() {
+    console.log("Welcome to Shreyansh's Portfolio!");
+});
+
+
+// Get the contact button from the HTML
+const contactButton = document.querySelector(".second-button");
+
+
+// Add an action when someone clicks the contact button
+contactButton.addEventListener("click", function() {
+    console.log("Someone wants to contact you!");
+});
